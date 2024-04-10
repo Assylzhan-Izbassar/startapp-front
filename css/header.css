@@ -1,0 +1,13 @@
+.header {
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 71px;
+  padding: 0px 16px;
+}
+.header__logo {
+}
+.header__menu {
+}
