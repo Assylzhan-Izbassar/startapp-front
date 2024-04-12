@@ -45,13 +45,23 @@ body {
 .heading {
   font-family: var(--heading-font);
 }
-.heading > *:not(:last-child) {
+.heading_margin > *:not(:last-child) {
   margin-bottom: 12px;
+}
+.heading__text-0 {
+  font-size: 72px;
+  font-weight: 400;
+  line-height: calc(83 / 72 * 100%);
 }
 .heading__text {
   font-size: 32px;
   font-weight: 700;
   line-height: calc(37 / 32 * 100%);
+}
+.heading__text-3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: calc(28 / 24 * 100%);
 }
 .heading_center {
   text-align: center;
@@ -61,6 +71,7 @@ body {
   line-height: calc(21 / 18 * 100%);
 }
 .heading__text,
+.heading__text-3,
 .heading__subtext {
   position: relative;
   text-transform: uppercase;
