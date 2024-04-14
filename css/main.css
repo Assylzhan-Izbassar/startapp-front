@@ -63,6 +63,11 @@ body {
   font-weight: 400;
   line-height: calc(28 / 24 * 100%);
 }
+.heading__text-4 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: calc(20 / 18 * 100%);
+}
 .heading_center {
   text-align: center;
 }
@@ -72,6 +77,7 @@ body {
 }
 .heading__text,
 .heading__text-3,
+.heading__text-4,   
 .heading__subtext {
   position: relative;
   text-transform: uppercase;
