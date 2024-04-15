@@ -4,7 +4,14 @@
   --primary: #8ea8f3;
   --secondary: #fbffff;
   --accent: #fcbc4a;
+  --gray-100: #dde6fe;
+  --gray-300: #becffe;
+  --gray-400: #aabff7;
+  --gray-500: #859ad5;
+  --gray-600: #5e71a6;
   --text: #222630;
+  --error-2: #fb310e;
+  --error-3: #e94b30;
   --heading-font: "Ubuntu", sans-serif;
   --common-font: "Lora", serif;
 }
@@ -77,7 +84,7 @@ body {
 }
 .heading__text,
 .heading__text-3,
-.heading__text-4,   
+.heading__text-4,
 .heading__subtext {
   position: relative;
   text-transform: uppercase;
@@ -107,6 +114,7 @@ body {
   font-family: var(--heading-font);
   font-weight: 500;
   border-radius: 13px;
+  text-align: center;
 }
 
 .action_center {
