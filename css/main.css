@@ -30,6 +30,9 @@ body {
 .content {
   flex: 1 1 auto;
 }
+._lock {
+  overflow: hidden;
+}
 ._container {
   margin: 0 auto;
   padding: 50px 16px;
@@ -113,8 +116,14 @@ body {
   text-transform: uppercase;
   font-family: var(--heading-font);
   font-weight: 500;
+  font-size: 18px;
+  line-height: calc(20 / 18 * 100%);
   border-radius: 13px;
   text-align: center;
+}
+
+.action__button_notrounded {
+  border-radius: 3px;
 }
 
 .action_center {

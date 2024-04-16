@@ -1,0 +1,14 @@
+.menu {
+  /* display: none; */
+  position: fixed;
+  width: 100%;
+  background-color: var(--gray-100);
+}
+.menu__container {
+  padding: 50px 35px;
+}
+.menu__item {
+}
+.menu__item:not(:last-child) {
+  margin-bottom: 23px;
+}

@@ -1,13 +1,37 @@
 .header {
+  display: block;
+  position: sticky;
+  width: 100%;
+  min-height: 86px;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  background-color: var(--secondary);
 }
+
 .header__container {
   display: flex;
+  min-height: 70px;
   justify-content: space-between;
-  align-items: center;
-  min-height: 71px;
+  align-items: end;
   padding: 0px 16px;
+  margin-bottom: 16px;
 }
+
 .header__logo {
 }
+
 .header__menu {
+}
+
+.header__burger {
+  display: none;
+}
+
+.header__close {
+  display: flex;
+  /* display: none; */
+}
+.header__close span {
+  margin-right: 5px;
 }

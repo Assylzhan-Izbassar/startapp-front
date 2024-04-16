@@ -6,6 +6,7 @@
 @import url("main.css");
 
 @import url("sections/header.css");
+@import url("sections/menu.css");
 @import url("sections/hero.css");
 @import url("sections/pain.css");
 @import url("sections/services.css");
