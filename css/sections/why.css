@@ -1,9 +1,11 @@
 .why {
+  color: var(--primary-2);
 }
 .why__container {
 }
 .why__heading {
   margin-bottom: 23px;
+  color: var(--primary-2);
 }
 .carts {
 }
@@ -12,11 +14,16 @@
 }
 .carts__header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  color: var(--primary-2);
 }
 .carts__number {
+  line-height: calc(56 / 72 * 100%);
 }
 .carts__title {
+  margin-left: 6px;
 }
 .carts__paragraph {
+  margin-top: 13px;
+  font-weight: 500;
 }

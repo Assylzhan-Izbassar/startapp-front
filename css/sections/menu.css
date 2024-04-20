@@ -1,5 +1,5 @@
 .menu {
-  /* display: none; */
+  display: none;
   position: fixed;
   width: 100%;
   background-color: var(--gray-100);
