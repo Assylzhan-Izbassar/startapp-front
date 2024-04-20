@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   z-index: 20;
-  background-color: var(--secondary-2);
+  background-color: var(--secondary-1);
 }
 
 .header__container {
@@ -25,12 +25,12 @@
 }
 
 .header__burger {
-  display: none;
+  /* display: none; */
 }
 
 .header__close {
-  display: flex;
-  /* display: none; */
+  /* display: flex; */
+  display: none;
 }
 .header__close span {
   margin-right: 5px;

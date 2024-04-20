@@ -7,8 +7,6 @@
 .menu__container {
   padding: 50px 35px;
 }
-.menu__item {
-}
 .menu__item:not(:last-child) {
   margin-bottom: 23px;
 }
